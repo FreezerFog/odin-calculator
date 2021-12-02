@@ -8,6 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-size: 2rem;
 }
 
 main {
@@ -16,7 +17,7 @@ main {
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #000;
-  background-color: #a9a9a9;
+  background-color: #777777;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,11 +30,28 @@ main {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  border: 1px solid #000;
 }
 
 .calc-row {
   display: flex;
   justify-content: space-between;
+}
+
+button {
+  transition: all 0.1s;
+  border: 1px solid #000;
+}
+
+button:hover {
+  border: 2px solid #000;
+  font-size: 2.1rem;
+}
+
+button:active {
+  font-size: 1.9rem;
+  border: 3px solid #000;
+  box-shadow: 1px 2px 1px #000;
 }
 
 .btn-lg {
